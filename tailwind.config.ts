@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        milk: "#F9F8F6",
+        orange: "#FF8541",
+        grey: "#8D8C8B",
+        stone: "#555351",
+        blackberry: "#1C1917",
       },
     },
   },
