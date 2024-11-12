@@ -1,6 +1,8 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
-    }
+  "Menu": {
+    "home": "Asosiy sahifa",
+    "programs": "Ta’lim dasturlari",
+    "about": "Biz haqimizda",
+    "blog": "Blog"
   }
+}

@@ -4,11 +4,33 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import localFont from "next/font/local";
 
 export const metadata: Metadata = {
   title: "Edu-Action",
   description: "Ta'lim Markari",
 };
+
+const sfpro = localFont({
+  src: [
+    {
+      path: "fonts/sfpro400.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "fonts/sfpro500.woff",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "fonts/sfpro700.woff",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-sfpro",
+});
 
 export default async function LocaleLayout({
   children,
@@ -29,7 +51,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className={`${sfpro.variable}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

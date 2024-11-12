@@ -18,6 +18,9 @@ export default {
         blackberry: "#1C1917",
       },
     },
+    fontFamily: {
+      sfpro: ["var(--font-sfpro)"],
+    },
   },
   plugins: [],
 } satisfies Config;

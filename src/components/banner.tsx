@@ -1,7 +1,7 @@
 export const Banner = () => {
   return (
     <section className="container_">
-      <div>banner</div>
+      <div className="font-medium">banner</div>
     </section>
   );
 };
