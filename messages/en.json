@@ -4,5 +4,9 @@
     "programs": "Educational programs",
     "about": "About",
     "blog": "Blog"
+  },
+  "Banner": {
+    "title": "Invest in your future with us",
+    "desc": "Those who aim to study at prestigious universities are with us"
   }
 }

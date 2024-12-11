@@ -1,4 +1,4 @@
-import { SVGProps } from "react";
+import React, { ReactNode, SVGProps } from "react";
 
 export interface MenuItems {
   id: number;
