@@ -17,9 +17,9 @@ export default {
         stone: "#555351",
         blackberry: "#1C1917",
       },
-    },
-    fontFamily: {
-      sfpro: ["var(--font-sfpro)"],
+      fontFamily: {
+        sfpro: ["var(--font-sfpro)"],
+      },
     },
   },
   plugins: [],
