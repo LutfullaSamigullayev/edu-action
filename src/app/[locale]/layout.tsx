@@ -54,9 +54,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${sfpro.variable}`}>
         <NextIntlClientProvider messages={messages}>
-          <Header locale={locale} />
           {children}
-          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

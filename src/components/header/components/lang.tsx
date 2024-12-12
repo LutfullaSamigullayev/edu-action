@@ -1,10 +1,9 @@
 "use client";
 
 import { Icons } from "@/icons";
-import clsx from "clsx";
 import { usePathname, useRouter } from "next/navigation";
 
-export const LangSelect = ({ locale }: { locale: string }) => {
+export const LangSelect = () => {
   const Language = [
     {
       id: 1,
@@ -28,7 +27,7 @@ export const LangSelect = ({ locale }: { locale: string }) => {
 
   const pathname = usePathname();
   const router = useRouter();
-
+  const locale = pathname.slice(1, 3);
   const handleLangChange = (newLang: string) => {
     const path = pathname.split("/").slice(2).join("/");
     router.push(`/${newLang}/${path}`);
@@ -50,7 +49,7 @@ export const LangSelect = ({ locale }: { locale: string }) => {
   const filterLanguage = Language.filter((lang) => lang.value !== locale);
 
   return (
-    <div className="w-20 h-full text-stone  relative select-none cursor-pointer">
+    <div className="w-20 h-12 text-stone  relative select-none cursor-pointer">
       <div
         id="lang-select"
         className="group p-3 flex items-center justify-center gap-x-2 border border-stone rounded-lg hover:border-b-0 hover:rounded-br-none hover:rounded-bl-none transition-all"
@@ -58,8 +57,10 @@ export const LangSelect = ({ locale }: { locale: string }) => {
         <p className="leading-4">
           {locale.charAt(0).toUpperCase() + locale.slice(1)}
         </p>
-        <Icons.down />
-        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 ">
+        <div className="group-hover:rotate-180 transition-all duration-500">
+          <Icons.down />
+        </div>
+        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
           {filterLanguage.map((lang) => (
             <li
               key={lang.id}

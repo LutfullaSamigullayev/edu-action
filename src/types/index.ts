@@ -6,6 +6,11 @@ export interface MenuItems {
   title: string;
 }
 
+export interface MenuProps {
+  open?: boolean;
+  close: () => void;
+}
+
 export interface LinkBtnT {
   children: string;
   to: string;
