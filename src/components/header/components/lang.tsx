@@ -3,7 +3,6 @@
 import { Icons } from "@/icons";
 import clsx from "clsx";
 import { usePathname, useRouter } from "next/navigation";
-import React, { ChangeEvent, useEffect, useRef, useState } from "react";
 
 export const LangSelect = ({ locale }: { locale: string }) => {
   const Language = [
@@ -30,49 +29,49 @@ export const LangSelect = ({ locale }: { locale: string }) => {
   const pathname = usePathname();
   const router = useRouter();
 
-  const [open, setOpen] = useState(false);
-  console.log(open);
   const handleLangChange = (newLang: string) => {
     const path = pathname.split("/").slice(2).join("/");
     router.push(`/${newLang}/${path}`);
-    setOpen(false);
   };
+
+  // bu useEffectda ekranning hohlagan joyiga bosilganda lang menu yopiladi
+
+  // useEffect(() => {
+  //   document.body.addEventListener("click", (e: MouseEvent) => {
+  //     const element = e.target as HTMLElement;
+  //     if (element.closest("#lang-select")) { // closest degani uning ota elementini id orqali ushlab olish
+  //       setOpen(!open);
+  //     } else {
+  //       setOpen(false);
+  //     }
+  //   });
+  // }, []);
 
   const filterLanguage = Language.filter((lang) => lang.value !== locale);
 
   return (
     <div className="w-20 h-full text-stone  relative select-none cursor-pointer">
       <div
-        onClick={() => setOpen(!open)}
-        className={clsx(
-          open && "border-b-0 rounded-br-none rounded-bl-none",
-          "py-3 flex items-center justify-center gap-x-2 border border-stone  rounded-lg "
-        )}
+        id="lang-select"
+        className="group p-3 flex items-center justify-center gap-x-2 border border-stone rounded-lg hover:border-b-0 hover:rounded-br-none hover:rounded-bl-none transition-all"
       >
         <p className="leading-4">
           {locale.charAt(0).toUpperCase() + locale.slice(1)}
         </p>
         <Icons.down />
-      </div>
-      <ul
-        className={clsx(
-          open ? "block" : "hidden",
-          "w-full absolute bg-background divide-y divide-stone border  border-stone rounded-bl-lg rounded-br-lg transition-all"
-        )}
-      >
-        {filterLanguage.map((lang) => (
-          <li
-            key={lang.id}
-            className="hover:text-orange transition-all "
-            onClick={() => handleLangChange(lang.value)}
-          >
-            <div className="flex gap-x-3 justify-center p-3 ">
+        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-500 ">
+          {filterLanguage.map((lang) => (
+            <li
+              key={lang.id}
+              className="flex gap-x-3 justify-center p-3 hover:text-orange transition-all "
+              onClick={() => handleLangChange(lang.value)}
+            >
               {lang.title}
               {lang.icon}
-            </div>
-          </li>
-        ))}
-      </ul>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
