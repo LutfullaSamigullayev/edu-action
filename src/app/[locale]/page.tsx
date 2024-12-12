@@ -1,4 +1,4 @@
-import { Banner, Footer, Header } from "@/components";
+import { Header, Banner, Product, Footer } from "@/components";
 
 export default function HomePage() {
   return (
@@ -6,6 +6,7 @@ export default function HomePage() {
       <div className="flex flex-col gap-y-8 sm:gap-y-10 md:gap-y-12 lg:gap-y-14 xl:gap-y-16 2xl:gap-y-20">
         <Header />
         <Banner />
+        <Product />
       </div>
       <Footer />
     </div>
