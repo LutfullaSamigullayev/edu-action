@@ -17,10 +17,8 @@ export interface LinkBtnT {
   orange?: boolean;
 }
 
-export interface TitleT {
-  children: string;
-  to: string;
+export interface TitleT extends LinkBtnT {
+  orange2?: boolean;
   button?: boolean;
 }
-
 export type IconProps = SVGProps<SVGSVGElement>;

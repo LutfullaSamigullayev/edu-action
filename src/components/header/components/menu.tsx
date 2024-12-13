@@ -11,8 +11,10 @@ export const Menu = ({ open, close }: MenuProps) => {
   return (
     <div
       className={clsx(
-        "fixed md:static top-0 left-0 z-20 md:z-0 bg-transparent h-full w-full transform -translate-x-full md:-translate-x-0 transition-transform duration-300",
-        open && "block -translate-x-0 transition-transform duration-300"
+        "fixed top-0 left-0 z-20 bg-transparent h-full w-full transform",
+        open ? " -translate-x-0" : "-translate-x-full",
+        "transition-transform duration-500",
+        "md:static md:-translate-x-0"
       )}
       onClick={close}
     >
