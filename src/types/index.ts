@@ -16,8 +16,9 @@ export interface LinkBtnT {
   to: string;
   orange?: boolean;
 }
-
-export interface TitleT extends LinkBtnT {
+// Omit orqali biz kerakli kalitni moslashtirishimiz mumkin
+export interface TitleT extends Omit<LinkBtnT, "to"> {
+  to?: string;
   orange2?: boolean;
   button?: boolean;
 }

@@ -54,7 +54,7 @@ export const LangSelect = () => {
         id="lang-select"
         className="group p-3 flex items-center justify-center gap-x-2 border border-stone rounded-lg hover:border-b-0 hover:rounded-br-none hover:rounded-bl-none transition-all"
       >
-        <p className="leading-4">
+        <p className="leading-4 hover:rotate-6 transition-all">
           {locale.charAt(0).toUpperCase() + locale.slice(1)}
         </p>
         <div className="group-hover:rotate-180 transition-all duration-500">
@@ -64,10 +64,10 @@ export const LangSelect = () => {
           {filterLanguage.map((lang) => (
             <li
               key={lang.id}
-              className="flex gap-x-3 justify-center p-3 hover:text-orange transition-all "
+              className="flex gap-x-3 justify-center p-3  hover:text-orange transition-all "
               onClick={() => handleLangChange(lang.value)}
             >
-              {lang.title}
+              <span className="hover:rotate-6">{lang.title}</span>
               {lang.icon}
             </li>
           ))}

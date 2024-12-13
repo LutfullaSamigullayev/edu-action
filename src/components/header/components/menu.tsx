@@ -22,9 +22,13 @@ export const Menu = ({ open, close }: MenuProps) => {
         {menuItems.map((item) => (
           <li
             key={item.id}
-            className="text-grey hover:text-foreground transition-all"
+            className="text-grey cursor-pointer hover:rotate-6 hover:text-foreground transition-all"
           >
-            <a onClick={close} href={item.link} className="text-nowrap">
+            <a
+              onClick={close}
+              href={item.link}
+              className="select-none text-nowrap"
+            >
               {t(item.title)}
             </a>
           </li>
