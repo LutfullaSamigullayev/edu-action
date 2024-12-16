@@ -1,12 +1,21 @@
 import { TitleSection } from "@/components";
 import { useTranslations } from "next-intl";
+import { PCard } from "./components";
 
 export const Product = () => {
   const t = useTranslations("Product");
   return (
     <section className="container_">
-      <TitleSection children={t("title")} to="#" button orange2 />
-      <div>produc main</div>
+      <TitleSection
+        title={t("title")}
+        btnTitle="all"
+        btnLink="#"
+        button
+        orange2
+      />
+      <div>
+        <PCard />
+      </div>
     </section>
   );
 };

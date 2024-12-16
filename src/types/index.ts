@@ -1,4 +1,4 @@
-import React, { ReactNode, SVGProps } from "react";
+import { SVGProps } from "react";
 
 export interface MenuItems {
   id: number;
@@ -12,14 +12,16 @@ export interface MenuProps {
 }
 
 export interface LinkBtnT {
-  children: string;
-  to: string;
-  orange?: boolean;
+  btnTitle: string;
+  btnLink: string;
+  btnOrange?: boolean;
 }
 // Omit orqali biz kerakli kalitni moslashtirishimiz mumkin
-export interface TitleT extends Omit<LinkBtnT, "to"> {
-  to?: string;
-  orange2?: boolean;
+export interface TitleT extends Omit<LinkBtnT, "btnLink"> {
+  title: string;
   button?: boolean;
+  btnLink?: string;
+  orange1?: boolean;
+  orange2?: boolean;
 }
 export type IconProps = SVGProps<SVGSVGElement>;

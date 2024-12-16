@@ -5,11 +5,20 @@
     "about": "Biz haqimizda",
     "blog": "Blog"
   },
+  "Button": {
+    "link": "Ariza yuborish",
+    "all": "Barchasi", 
+    "detail": "Batafsil",
+    "send": "Yuborish",
+    "map": "Xaritada",
+    "dev": "Appx Group tomonidan ishlab chiqilgan"
+  },
   "Banner": {
     "title": "Biz bilan kelajagingizga investitsiya qiling",
     "desc": "Nufuzli universitetlarda o’qishni maqsad qilganlar biz bilan"
   },
   "Product": {
     "title": "Top Dasturlar"
+
   }
 }

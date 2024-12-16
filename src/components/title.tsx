@@ -1,33 +1,36 @@
 import { TitleT } from "@/types";
 import { LinkBtn } from "./link";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 export const TitleSection = ({
-  children,
-  to,
+  title,
   button,
-  orange,
+  btnTitle,
+  btnLink,
+  orange1,
   orange2,
 }: TitleT) => {
-  console.log("button:", button);
   return (
-    <div className="flex items-center justify-between">
-      <h2 className="text-4xl font-semibold">
-        {children.split(" ").length === 2 ? (
+    <div className="flex items-center justify-between pb-6 sm:pb-7 md:pb-8 lg:pb-9 xl:pb-10 2xl:pb-12 ">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+        {title.split(" ").length === 2 ? (
           <>
-            <span className={clsx(orange && "text-orange")}>
-              {children.split(" ")[0]}
+            <span className={clsx(orange1 && "md:text-orange")}>
+              {title.split(" ")[0]}
             </span>
             <span> </span>
-            <span className={clsx(orange2 && "text-orange")}>
-              {children.split(" ")[1]}
+            <span className={clsx(orange2 && "md:text-orange")}>
+              {title.split(" ")[1]}
             </span>
           </>
         ) : (
-          <span>{children}</span>
+          <span>{title}</span>
         )}
       </h2>
-      {button && <LinkBtn children="Barchasi" to={to ? to : "#"} />}
+      {button && (
+        <LinkBtn btnTitle={btnTitle} btnLink={btnLink ? btnLink : "#"} />
+      )}
     </div>
   );
 };

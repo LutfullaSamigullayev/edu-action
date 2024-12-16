@@ -5,6 +5,14 @@
     "about": "About",
     "blog": "Blog"
   },
+  "Button": {
+    "link": "Submit an application",
+    "all": "All", 
+    "detail": "More",
+    "send": "Send",
+    "map": "On the map",
+    "dev": "Developed and designed by Appx Group"
+  },
   "Banner": {
     "title": "Invest in your future with us",
     "desc": "Those who aim to study at prestigious universities are with us"

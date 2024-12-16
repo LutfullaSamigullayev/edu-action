@@ -5,8 +5,10 @@ import { LinkBtn, Logo } from "@/components";
 import { Menu, LangSelect } from "./components";
 import { Icons } from "@/icons";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export const Header = () => {
+  const t = useTranslations("Button");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   console.log("open:", isMenuOpen);
 
@@ -21,7 +23,7 @@ export const Header = () => {
           <Menu open={isMenuOpen} close={toggleMenu} />
         </div>
         <div className="flex items-center gap-x-3">
-          <LinkBtn children="Ariza qoldirish" to="#" orange />
+          <LinkBtn btnTitle="link" btnLink="#" btnOrange />
           <div className="hidden md:block">
             <LangSelect />
           </div>

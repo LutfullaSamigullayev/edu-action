@@ -5,7 +5,6 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import localFont from "next/font/local";
-import { Footer, Header } from "@/components";
 
 export const metadata: Metadata = {
   title: "Edu-Action",
