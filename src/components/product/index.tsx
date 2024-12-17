@@ -3,7 +3,7 @@
 import { TitleSection } from "@/components";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslations } from "next-intl";
-import { PCard } from "./components";
+import { ProductCard } from "./components";
 import { productItems } from "@/data";
 import "swiper/css";
 
@@ -11,16 +11,10 @@ export const Product = () => {
   const t = useTranslations("Product");
   return (
     <section className="container_">
-      <TitleSection
-        title={t("title")}
-        btnTitle="all"
-        btnLink="#"
-        button
-        orange2
-      />
+      <TitleSection title={t("title")} button btnTitle="all" orange2 />
       <div className="hidden md:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {productItems.map((item) => (
-          <PCard
+          <ProductCard
             key={item.id}
             imgUrl={item.imgUrl}
             university={t(item.university)}
@@ -38,7 +32,7 @@ export const Product = () => {
         >
           {productItems.map((item) => (
             <SwiperSlide key={item.id}>
-              <PCard
+              <ProductCard
                 imgUrl={item.imgUrl}
                 university={t(item.university)}
                 location={t(item.location)}

@@ -35,3 +35,6 @@ export interface CardProductType {
 export interface ProductItems extends CardProductType {
   id: number;
 }
+export interface CardBlogType {
+  horizontal?: boolean;
+}

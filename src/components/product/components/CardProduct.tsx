@@ -2,7 +2,7 @@ import { Icons } from "@/icons";
 import { CardProductType } from "@/types";
 import Image from "next/image";
 
-export const PCard = ({
+export const ProductCard = ({
   imgUrl,
   university,
   location,

@@ -1,4 +1,4 @@
-import { Header, Banner, Product, Footer } from "@/components";
+import { Header, Banner, Product, Footer, News } from "@/components";
 
 export default function HomePage() {
   return (
@@ -7,6 +7,7 @@ export default function HomePage() {
         <Header />
         <Banner />
         <Product />
+        <News />
       </div>
       <Footer />
     </div>

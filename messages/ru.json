@@ -22,6 +22,25 @@
     "university": "Мюнхенский технический университет",
     "location": "Германия",
     "dergee": "Магистратура"
+  },
+  "News": {
+    "title": "Yangiliklar",
+      "Shahriyor": {
+        "title": "Shahriyor Tojiboyev - «Master's in Law» (huquq sohasida.... ",
+        "desc": "'Master's in Law' (huquq sohasida magistratura bosqichi)ni Amerikaning nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi."
+      },
+      "Mehrojiddin": {
+        "title": "Mehrojiddin Sattorov - navbatdagi Amerika vizasi sohibi.",
+        "desc": "U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi. "
+      },
+      "Muhammadrasul": {
+        "title": "Muhammadrasul Abdurazzoqov - navbatdagi Koreya vizasi sohibi",
+        "desc": "U Koreyadagi «SolBridge» universitetining «Business administration» yo'nalishida bakalavr bosqichini o‘qish imkoniyatini qo‘lga kiritdi."
+      },
+      "Afzalxon": {
+        "title": "Afzalxon Nasriddinov - navbatdagi Amerika vizasi sohibi.",
+        "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi"
+      }
   }
 }
 
