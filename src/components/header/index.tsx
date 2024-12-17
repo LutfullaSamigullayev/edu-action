@@ -10,7 +10,6 @@ import { useTranslations } from "next-intl";
 export const Header = () => {
   const t = useTranslations("Button");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  console.log("open:", isMenuOpen);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);

@@ -1,0 +1,1 @@
+export { NewsSwiper } from "./swiper";
