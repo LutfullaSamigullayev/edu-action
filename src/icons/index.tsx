@@ -45,6 +45,49 @@ export const Icons = {
       />
     </svg>
   ),
+  swiperNext: (props: IconProps) => (
+    <svg
+      width="33"
+      height="32"
+      viewBox="0 0 33 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_1_2780)">
+        <path
+          d="M7.21094 16L25.5859 16"
+          stroke="#1C1917"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M17.7109 23.875L25.5859 16"
+          stroke="#1C1917"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M17.7109 8.125L25.5859 16"
+          stroke="#1C1917"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_1_2780">
+          <rect
+            width="31.5"
+            height="31.5"
+            fill="white"
+            transform="translate(0.648438 0.25)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
   down: (props: IconProps) => (
     <svg
       width="24"
