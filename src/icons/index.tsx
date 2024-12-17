@@ -52,6 +52,7 @@ export const Icons = {
       viewBox="0 0 33 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clipPath="url(#clip0_1_2780)">
         <path

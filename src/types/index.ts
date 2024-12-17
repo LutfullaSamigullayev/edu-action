@@ -1,4 +1,3 @@
-import { News } from "@/components";
 import { SVGProps } from "react";
 
 export interface MenuItems {

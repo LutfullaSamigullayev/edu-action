@@ -1,7 +1,6 @@
 import { TitleT } from "@/types";
 import { LinkBtn } from "./link";
 import clsx from "clsx";
-import { useTranslations } from "next-intl";
 
 export const TitleSection = ({
   title,

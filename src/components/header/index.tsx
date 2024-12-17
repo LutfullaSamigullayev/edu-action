@@ -5,10 +5,8 @@ import { LinkBtn, Logo } from "@/components";
 import { Menu, LangSelect } from "./components";
 import { Icons } from "@/icons";
 import { useState } from "react";
-import { useTranslations } from "next-intl";
 
 export const Header = () => {
-  const t = useTranslations("Button");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

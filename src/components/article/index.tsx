@@ -13,7 +13,7 @@ export const Article = () => {
         <ArticleSwiper />
       </div>
 
-      <div className="hidden md:grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-6">
+      <div className="hidden md:grid grid-cols-1 xl:grid-cols-2 gap-6">
         {articleItems.map((item) => (
           <BlogCard
             horizontal

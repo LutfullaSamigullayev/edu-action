@@ -1,6 +1,5 @@
 import { CardBlogType } from "@/types";
 import clsx from "clsx";
-import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export const BlogCard = ({ title, imgUrl, desc, horizontal }: CardBlogType) => {
