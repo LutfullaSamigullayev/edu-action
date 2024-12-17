@@ -1,8 +1,9 @@
 import { CardBlogType } from "@/types";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-export const BlogCard = ({ horizontal }: CardBlogType) => {
+export const BlogCard = ({ title, imgUrl, desc, horizontal }: CardBlogType) => {
   return (
     <div
       className={clsx(
@@ -11,8 +12,8 @@ export const BlogCard = ({ horizontal }: CardBlogType) => {
       )}
     >
       <Image
-        src={"/news/1.png"}
-        alt="news"
+        src={imgUrl}
+        alt={horizontal ? "blog" : "news"}
         width={340}
         height={220}
         className={clsx(
@@ -21,13 +22,8 @@ export const BlogCard = ({ horizontal }: CardBlogType) => {
         )}
       />
       <div className=" p-4 md:p-6 ">
-        <h3 className="text-black text-xl">
-          Shahriyor Tojiboyev - "Master's in Law" (huquq sohasida....
-        </h3>
-        <p className={clsx("pt-3", horizontal ? "md:p-3" : "md:p-2")}>
-          "Master's in Law" (huquq sohasida magistratura bosqichi)ni Amerikaning
-          nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi.
-        </p>
+        <h3 className="text-black text-xl">{title}</h3>
+        <p className={clsx("pt-3", horizontal ? "md:p-3" : "md:p-2")}>{desc}</p>
       </div>
     </div>
   );

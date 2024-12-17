@@ -1,4 +1,4 @@
-import { MenuItems, ProductItems } from "@/types";
+import { MenuItems, NewsItemsType, ProductItems } from "@/types";
 
 export const menuItems: MenuItems[] = [
   {
@@ -79,5 +79,59 @@ export const productItems: ProductItems[] = [
     university: "university",
     location: "location",
     dergee: "dergee",
+  },
+];
+
+export const newsItems: NewsItemsType[] = [
+  {
+    id: 1,
+    imgUrl: "/news/1.png",
+    title: "1.title",
+    desc: "1.desc",
+  },
+  {
+    id: 2,
+    imgUrl: "/news/2.png",
+    title: "2.title",
+    desc: "2.desc",
+  },
+  {
+    id: 3,
+    imgUrl: "/news/3.png",
+    title: "3.title",
+    desc: "3.desc",
+  },
+  {
+    id: 4,
+    imgUrl: "/news/4.png",
+    title: "4.title",
+    desc: "4.desc",
+  },
+];
+
+export const articleItems: NewsItemsType[] = [
+  {
+    id: 1,
+    imgUrl: "/article/1.png",
+    title: "1.title",
+    desc: "1.desc",
+  },
+  {
+    id: 2,
+    imgUrl: "/article/2.png",
+    title: "2.title",
+    desc: "2.desc",
+  },
+  {
+    id: 3,
+    imgUrl: "/article/3.png",
+    title: "3.title",
+    desc: "3.desc",
+  },
+  {
+    id: 4,
+    imgUrl: "/article/4.png",
+    title: "4.title",
+    desc: "4.desc",
   },
 ];

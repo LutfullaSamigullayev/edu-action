@@ -24,22 +24,41 @@
     "dergee": "Master's degree"
   },
   "News": {
-    "title": "Yangiliklar",
-      "Shahriyor": {
-        "title": "Shahriyor Tojiboyev - «Master's in Law» (huquq sohasida.... ",
-        "desc": "'Master's in Law' (huquq sohasida magistratura bosqichi)ni Amerikaning nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi."
-      },
-      "Mehrojiddin": {
-        "title": "Mehrojiddin Sattorov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi. "
-      },
-      "Muhammadrasul": {
-        "title": "Muhammadrasul Abdurazzoqov - navbatdagi Koreya vizasi sohibi",
-        "desc": "U Koreyadagi «SolBridge» universitetining «Business administration» yo'nalishida bakalavr bosqichini o‘qish imkoniyatini qo‘lga kiritdi."
-      },
-      "Afzalxon": {
-        "title": "Afzalxon Nasriddinov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi"
-      }
+    "title": "News",
+    "1": {
+      "title": "Shahriyor Tojibayev - «Master's in Law» (in the field of law....",
+      "desc": "He had the opportunity to study for a «Master's in Law at one of the most prestigious universities in America."
+    },
+    "2": {
+      "title": "Mehroziddin Sattorov is the next holder of an American visa.",
+      "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was awarded a bachelor's degree."
+    },
+    "3": {
+      "title": "Muhammadrasul Abdurazzokov - the next Korean visa holder.",
+      "desc": "He was awarded the opportunity to study for a bachelor's degree in «Business Administration» at «SolBridge» University in Korea."
+    },
+    "4": {
+      "title": "Afzalkhon Nasriddinov is the next holder of an American visa.",
+      "desc": "He applied to one of the prestigious universities in the United States for a degree in «Business Administration and Management» and was awarded a bachelor's degree."
+    }
+  },
+  "Article": {
+    "title": "Articles",
+    "1": {
+      "title": "Facts you didn't know about America.",
+      "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was offered a bachelor's degree..."
+    },
+    "2": {
+      "title": "Facts you didn't know about America.",
+      "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was offered a bachelor's degree..."
+    },
+    "3": {
+      "title": "Facts you didn't know about America.",
+      "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was offered a bachelor's degree..."
+    },
+    "4": {
+      "title": "Facts you didn't know about America.",
+      "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was offered a bachelor's degree..."
+    }
   }
 }

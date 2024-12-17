@@ -24,23 +24,42 @@
     "dergee": "Магистратура"
   },
   "News": {
-    "title": "Yangiliklar",
-      "Shahriyor": {
-        "title": "Shahriyor Tojiboyev - «Master's in Law» (huquq sohasida.... ",
-        "desc": "'Master's in Law' (huquq sohasida magistratura bosqichi)ni Amerikaning nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi."
-      },
-      "Mehrojiddin": {
-        "title": "Mehrojiddin Sattorov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi. "
-      },
-      "Muhammadrasul": {
-        "title": "Muhammadrasul Abdurazzoqov - navbatdagi Koreya vizasi sohibi",
-        "desc": "U Koreyadagi «SolBridge» universitetining «Business administration» yo'nalishida bakalavr bosqichini o‘qish imkoniyatini qo‘lga kiritdi."
-      },
-      "Afzalxon": {
-        "title": "Afzalxon Nasriddinov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi"
-      }
+    "title": "Новости",
+    "1": {
+      "title": "Шахриёр Тоджибоев – «Магистр права» (в области права...",
+      "desc": "Ему представилась возможность получить степень магистра права в одном из престижных американских университетов."
+    },
+    "2": {
+      "title": "Мехроджиддин Саторов – следующий обладатель американской визы.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Химическая инженерия» и получил возможность учиться на уровне бакалавра."
+    },
+    "3": {
+      "title": "Мухаммадрасул Абдураззоков – следующий обладатель корейской визы.",
+      "desc": "Он получил возможность получить степень бакалавра по специальности «Бизнес-администрирование» в Университете «СолБридж» в Корее."
+    },
+    "4": {
+      "title": "Афзалхан Насриддинов – следующий обладатель американской визы.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Бизнес-администрирование и менеджмент» и получил возможность учиться на уровне бакалавра."
+    }
+  },
+  "Article": {
+    "title": "Статьи",
+    "1": {
+      "title": "Факты об Америке, которые вы не знали.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Химическая инженерия» и получил возможность учиться на уровне бакалавра..."
+    },
+    "2": {
+      "title": "Факты об Америке, которые вы не знали.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Химическая инженерия» и получил возможность учиться на уровне бакалавра..."
+    },
+    "3": {
+      "title": "Факты об Америке, которые вы не знали.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Химическая инженерия» и получил возможность учиться на уровне бакалавра..."
+    },
+    "4": {
+      "title": "Факты об Америке, которые вы не знали.",
+      "desc": "Он подал документы в один из престижных университетов США на курс «Химическая инженерия» и получил возможность учиться на уровне бакалавра..."
+    }
   }
 }
 

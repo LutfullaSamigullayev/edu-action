@@ -1,3 +1,4 @@
+import { News } from "@/components";
 import { SVGProps } from "react";
 
 export interface MenuItems {
@@ -35,6 +36,18 @@ export interface CardProductType {
 export interface ProductItems extends CardProductType {
   id: number;
 }
+
 export interface CardBlogType {
+  imgUrl: string;
+  title: string;
+  desc: string;
   horizontal?: boolean;
+}
+
+export interface NewsItemsType extends CardBlogType {
+  id: number;
+}
+
+export interface ArticleItemsType extends CardBlogType {
+  id: number;
 }

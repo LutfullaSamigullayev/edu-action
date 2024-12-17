@@ -25,21 +25,40 @@
   },
   "News": {
     "title": "Yangiliklar",
-      "Shahriyor": {
-        "title": "Shahriyor Tojiboyev - «Master's in Law» (huquq sohasida.... ",
-        "desc": "'Master's in Law' (huquq sohasida magistratura bosqichi)ni Amerikaning nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi."
-      },
-      "Mehrojiddin": {
-        "title": "Mehrojiddin Sattorov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi. "
-      },
-      "Muhammadrasul": {
-        "title": "Muhammadrasul Abdurazzoqov - navbatdagi Koreya vizasi sohibi",
-        "desc": "U Koreyadagi «SolBridge» universitetining «Business administration» yo'nalishida bakalavr bosqichini o‘qish imkoniyatini qo‘lga kiritdi."
-      },
-      "Afzalxon": {
-        "title": "Afzalxon Nasriddinov - navbatdagi Amerika vizasi sohibi.",
-        "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi"
-      }
+    "1": {
+      "title": "Shahriyor Tojiboyev - «Master's in Law» (huquq sohasida.... ",
+      "desc": "«Master's in Law» (huquq sohasida magistratura bosqichi)ni Amerikaning nufuzli oliygohlaridan birida o'qish imkoniyatiga ega bo'ldi."
+    },
+    "2": {
+      "title": "Mehrojiddin Sattorov - navbatdagi Amerika vizasi sohibi.",
+      "desc": "U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi."
+    },
+    "3": {
+      "title": "Muhammadrasul Abdurazzoqov - navbatdagi Koreya vizasi sohibi.",
+      "desc": "U Koreyadagi «SolBridge» universitetining «Business administration» yo'nalishida bakalavr bosqichini o‘qish imkoniyatini qo‘lga kiritdi."
+    },
+    "4": {
+      "title": "Afzalxon Nasriddinov - navbatdagi Amerika vizasi sohibi.",
+      "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi."
+    }
+  },
+  "Article": {
+    "title": "Maqolalar",
+    "1": {
+      "title": "Amerika haqida siz bilmagan haqiqatlar",
+      "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
+    },
+    "2": {
+      "title": "Amerika haqida siz bilmagan haqiqatlar",
+      "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
+    },
+    "3": {
+      "title": "Amerika haqida siz bilmagan haqiqatlar",
+      "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
+    },
+    "4": {
+      "title": "Amerika haqida siz bilmagan haqiqatlar",
+      "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
+    }
   }
 }
