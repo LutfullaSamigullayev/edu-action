@@ -60,7 +60,7 @@ export const LangSelect = () => {
         <div className="group-hover:rotate-180 transition-all duration-500">
           <Icons.down />
         </div>
-        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:z-10 transition-all duration-300 ">
           {filterLanguage.map((lang) => (
             <li
               key={lang.id}

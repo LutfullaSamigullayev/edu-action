@@ -18,6 +18,9 @@
     "desc": "Those who aim to study at prestigious universities are with us"
   },
   "Product": {
-    "title": "Top Programs"
+    "title": "Top Programs",
+    "university": "Myunhem University of Technology",
+    "location": "Germany",
+    "dergee": "Master's degree"
   }
 }

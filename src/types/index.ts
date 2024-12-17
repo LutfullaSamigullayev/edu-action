@@ -25,3 +25,13 @@ export interface TitleT extends Omit<LinkBtnT, "btnLink"> {
   orange2?: boolean;
 }
 export type IconProps = SVGProps<SVGSVGElement>;
+
+export interface CardProductType {
+  imgUrl: string;
+  university: string;
+  location: string;
+  dergee: string;
+}
+export interface ProductItems extends CardProductType {
+  id: number;
+}

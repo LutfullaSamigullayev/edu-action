@@ -18,7 +18,9 @@
     "desc": "Nufuzli universitetlarda o’qishni maqsad qilganlar biz bilan"
   },
   "Product": {
-    "title": "Top Dasturlar"
-
+    "title": "Top Dasturlar",
+    "university": "Myunhem texnika universiteti",
+    "location": "Germaniya",
+    "dergee": "Magistratura"
   }
 }
