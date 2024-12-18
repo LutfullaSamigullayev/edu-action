@@ -3,6 +3,7 @@ export { LinkBtn } from "./link";
 export { TitleSection } from "./title";
 export { BlogCard } from "./cardBlog";
 export { ButtonSwiper } from "./btnSwiper";
+export { ArrowLink } from "./arrowBox";
 export { Header } from "./header";
 export { Banner } from "./banner";
 export { Product } from "./product";

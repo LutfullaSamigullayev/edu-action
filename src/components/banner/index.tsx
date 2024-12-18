@@ -1,6 +1,6 @@
-import { Icons } from "@/icons";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { ArrowLink } from "@/components";
 
 export const Banner = () => {
   const t = useTranslations("Banner");
@@ -28,8 +28,8 @@ export const Banner = () => {
           </h3>
           <div className="w-full sm:w-4/5 md:w-3/5 xl:w-2/5  flex items-center justify-between gap-x-3 sm:gap-x-4 md:gap-x-5 lg:gap-x-6">
             <p className=" text-base md:text-xl lg:text-2xl">{t("desc")}</p>
-            <div className="hidden sm:flex items-center justify-center aspect-square w-10 sm:w-12 md:w-14 lg:w-16 h-10 sm:h-12 md:h-14 lg:h-16  border border-white rounded-full">
-              <Icons.arrow />
+            <div className="hidden sm:block">
+              <ArrowLink />
             </div>
           </div>
         </div>

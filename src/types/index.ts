@@ -51,3 +51,10 @@ export interface NewsItemsType extends CardBlogType {
 export interface ArticleItemsType extends CardBlogType {
   id: number;
 }
+
+export interface AboutBox {
+  bg: string;
+  className: string;
+  arrow?: boolean;
+  logo?: boolean;
+}

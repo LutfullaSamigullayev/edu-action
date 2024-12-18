@@ -12,7 +12,7 @@ export const TitleSection = ({
 }: TitleT) => {
   return (
     <div className="flex items-center justify-between pb-6 sm:pb-7 md:pb-8 lg:pb-9 xl:pb-10 2xl:pb-12 ">
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+      <h2 className="text-black text-2xl sm:text-3xl lg:text-40 text- font-semibold">
         {title.split(" ").length === 2 ? (
           <>
             <span className={clsx(orange1 && "md:text-orange")}>
@@ -28,7 +28,10 @@ export const TitleSection = ({
         )}
       </h2>
       {button && (
-        <LinkBtn btnTitle={btnTitle} btnLink={btnLink ? btnLink : "#"} />
+        <LinkBtn
+          btnTitle={btnTitle ? btnTitle : " "}
+          btnLink={btnLink ? btnLink : "#"}
+        />
       )}
     </div>
   );
