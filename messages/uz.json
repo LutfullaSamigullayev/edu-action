@@ -42,6 +42,11 @@
       "desc": "U AQSHning nufuzli universitetlaridan biriga «Business administration and management» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi."
     }
   },
+  "About": {
+    "title": "Biz haqimizda",
+    "name": "Edu-action",
+    "about": "Biz xorijda ta’lim olish bo’yicha abuturentlarga ko’maklashuvchi kompaniyamiz. Bizning maqsadimiz «Barcha talabalarga ularning kelib chiqishi yoki ijtimoiy sharoitlaridan qat'iy nazar, mukammal ta'lim orqali eng yaxshi imkoniyat beriladi». Biz muntazam ravishda turli xorijiy treninglar, ko'rgazmalarda qatnashamiz va butun dunyo bo'ylab hamkorlar bilan shartnomalar tuzamiz."
+  },
   "Article": {
     "title": "Maqolalar",
     "1": {
@@ -61,4 +66,5 @@
       "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
     }
   }
+  
 }

@@ -42,6 +42,11 @@
       "desc": "He applied to one of the prestigious universities in the United States for a degree in «Business Administration and Management» and was awarded a bachelor's degree."
     }
   },
+  "About": {
+    "title": "About us",
+    "name": "Edu-action",
+    "about": "We are a company that assists applicants to study abroad. Our goal is «To provide all students, regardless of their background or social circumstances, with the best possible opportunity through excellent education.» We regularly participate in various foreign trainings, exhibitions, and conclude agreements with partners around the world."
+  },
   "Article": {
     "title": "Articles",
     "1": {

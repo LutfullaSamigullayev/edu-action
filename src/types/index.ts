@@ -17,9 +17,10 @@ export interface LinkBtnT {
   btnOrange?: boolean;
 }
 // Omit orqali biz kerakli kalitni moslashtirishimiz mumkin
-export interface TitleT extends Omit<LinkBtnT, "btnLink"> {
+export interface TitleT extends Omit<LinkBtnT, "btnLink" | "btnTitle"> {
   title: string;
   button?: boolean;
+  btnTitle?: string;
   btnLink?: string;
   orange1?: boolean;
   orange2?: boolean;
