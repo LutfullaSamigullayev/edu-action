@@ -65,6 +65,25 @@
       "title": "Amerika haqida siz bilmagan haqiqatlar",
       "desc": " U AQSHning nufuzli universitetlaridan biriga «Chemical Engineering» yo'nalishiga hujjat topshirdi va bakalavr bosqichida o‘qish imkoniyatini qo‘lga kiritdi... "
     }
+  },
+  "Comment": {
+    "title": "Talabalardan izohlar",
+    "1": {
+      "person": "Nodir Jumaev",
+      "university": "Boston Universiteti talabasi"
+    },
+    "2": {
+      "person": "Jamshid Qo’chqorov",
+      "university": "Myunxen texnika niversiteti talabasi"
+    },
+    "3": {
+      "person": "Nodir Jumaev",
+      "university": "Boston Universiteti talabasi"
+    },
+    "4": {
+      "person": "Nodir Jumaev",
+      "university": "Boston Universiteti talabasi"
+    }
   }
   
 }

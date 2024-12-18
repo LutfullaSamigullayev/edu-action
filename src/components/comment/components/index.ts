@@ -1,0 +1,1 @@
+export { PersonComment } from "./person";
