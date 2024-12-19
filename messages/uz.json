@@ -68,6 +68,7 @@
   },
   "Comment": {
     "title": "Talabalardan izohlar",
+    "play": "Videoni ko'rish",
     "1": {
       "person": "Nodir Jumaev",
       "university": "Boston Universiteti talabasi"
@@ -84,6 +85,9 @@
       "person": "Nodir Jumaev",
       "university": "Boston Universiteti talabasi"
     }
+  },
+  "Connect": {
+    "title": "Bog'lanish"
   }
   
 }

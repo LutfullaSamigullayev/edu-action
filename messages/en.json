@@ -65,5 +65,25 @@
       "title": "Facts you didn't know about America.",
       "desc": "He applied to a prestigious US university for a degree in «Chemical Engineering» and was offered a bachelor's degree..."
     }
+  },
+  "Comment": {
+    "title": "Comments from students",
+    "play": "Watch the video",
+    "1": {
+      "person": "Nodir Jumaev",
+      "university": "Boston University student"
+    },
+    "2": {
+      "person": "Jamshid Kuchkarov",
+      "university": "Student at the Technical University of Munich"
+    },
+    "3": {
+      "person": "Nodir Jumaev",
+      "university": "Boston University student"
+    },
+    "4": {
+      "person": "Nodir Jumaev",
+      "university": "Boston University student"
+    }
   }
 }

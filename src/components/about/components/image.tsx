@@ -16,8 +16,8 @@ export const ImageBox = ({ bg, arrow, logo, className }: AboutBox) => {
         <Image
           src={bg}
           alt="aboutImage"
-          width={160}
-          height={160}
+          width={400}
+          height={400}
           className={clsx(
             "w-full h-full",
             logo ? "object-contain" : "object-cover object-center"

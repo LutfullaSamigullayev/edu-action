@@ -43,11 +43,9 @@ export interface CardBlogType {
   desc: string;
   horizontal?: boolean;
 }
-
 export interface NewsItemsType extends CardBlogType {
   id: number;
 }
-
 export interface ArticleItemsType extends CardBlogType {
   id: number;
 }
@@ -57,4 +55,15 @@ export interface AboutBox {
   className: string;
   arrow?: boolean;
   logo?: boolean;
+}
+export interface PlayLinkType {
+  to?: string;
+}
+export interface PersonCommentType extends PlayLinkType {
+  imgUrl: string;
+  person: string;
+  university: string;
+}
+export interface PersonItem extends PersonCommentType {
+  id: number;
 }

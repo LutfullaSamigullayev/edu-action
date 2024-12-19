@@ -13,8 +13,8 @@ export const ProductCard = ({
       <Image
         src={imgUrl}
         alt="product"
-        width={340}
-        height={260}
+        width={600}
+        height={600}
         className="w-full h-full bg-no-repeat object-cover select-none"
       />
       {/* Gradient Overlay - adjusted to be transparent at top */}

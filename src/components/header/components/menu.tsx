@@ -4,6 +4,7 @@ import { menuItems } from "@/data";
 import { MenuProps } from "@/types";
 import clsx from "clsx";
 import { useTranslations } from "next-intl";
+import { LangSelect } from "./lang";
 
 export const Menu = ({ open, close }: MenuProps) => {
   const t = useTranslations("Menu");
@@ -19,6 +20,9 @@ export const Menu = ({ open, close }: MenuProps) => {
       onClick={close}
     >
       <ul className="bg-background w-fit h-full p-4 md:p-0 flex flex-col md:flex-row gap-x-3 gap-y-3 lg:gap-x-12 font-medium">
+        <div className="block md:hidden">
+          <LangSelect />
+        </div>
         {menuItems.map((item) => (
           <li
             key={item.id}

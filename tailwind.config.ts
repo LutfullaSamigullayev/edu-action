@@ -13,6 +13,7 @@ export default {
         foreground: "var(--foreground)",
         milk: "#F9F8F6",
         orange: "#FF8541",
+        orange2: "#FF5C01",
         grey: "#8D8C8B",
         stone: "#555351",
         blackberry: "#1C1917",

@@ -13,8 +13,8 @@ export const BlogCard = ({ title, imgUrl, desc, horizontal }: CardBlogType) => {
       <Image
         src={imgUrl}
         alt={horizontal ? "blog" : "news"}
-        width={340}
-        height={220}
+        width={1200}
+        height={1200}
         className={clsx(
           horizontal ? "w-72 h-52" : "w-full h-60 md:h-52",
           "  bg-no-repeat object-cover select-none"

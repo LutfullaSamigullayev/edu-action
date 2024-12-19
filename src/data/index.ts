@@ -135,3 +135,30 @@ export const articleItems: NewsItemsType[] = [
     desc: "4.desc",
   },
 ];
+
+export const commentItems = [
+  {
+    id: 1,
+    imgUrl: "/comment/1.png",
+    person: "1.person",
+    university: "1.university",
+  },
+  {
+    id: 2,
+    imgUrl: "/comment/2.png",
+    person: "2.person",
+    university: "2.university",
+  },
+  {
+    id: 3,
+    imgUrl: "/comment/3.png",
+    person: "3.person",
+    university: "3.university",
+  },
+  {
+    id: 4,
+    imgUrl: "/comment/4.png",
+    person: "4.person",
+    university: "4.university",
+  },
+];

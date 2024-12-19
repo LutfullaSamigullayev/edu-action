@@ -10,4 +10,6 @@ export { Product } from "./product";
 export { News } from "./news";
 export { About } from "./about";
 export { Article } from "./article";
+export { Comment } from "./comment";
+
 export { Footer } from "./footer";

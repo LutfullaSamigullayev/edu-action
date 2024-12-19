@@ -5,6 +5,7 @@ import {
   News,
   About,
   Article,
+  Comment,
   Footer,
 } from "@/components";
 
@@ -18,6 +19,7 @@ export default function HomePage() {
         <News />
         <About />
         <Article />
+        <Comment />
       </div>
       <Footer />
     </div>

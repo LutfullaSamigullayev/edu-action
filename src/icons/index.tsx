@@ -198,4 +198,33 @@ export const Icons = {
       </defs>
     </svg>
   ),
+  play: (props: IconProps) => (
+    <svg
+      width="16"
+      height="17"
+      viewBox="0 0 16 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g clipPath="url(#clip0_1_2845)">
+        <path
+          d="M4.66797 3.16699V13.8337L13.3346 8.50033L4.66797 3.16699Z"
+          stroke="white"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_1_2845">
+          <rect
+            width="16"
+            height="16"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
 };
