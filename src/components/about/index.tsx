@@ -27,7 +27,7 @@ export const About = () => {
           </div>
         </div>
         <div className="flex justify-end lg:hidden">
-          <LinkBtn btnTitle="all" btnLink="#" />
+          <LinkBtn btnTitle="all" btnLink="#" border />
         </div>
       </div>
     </div>
