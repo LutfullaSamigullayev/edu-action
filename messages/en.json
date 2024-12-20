@@ -9,9 +9,7 @@
     "link": "Submit an application",
     "all": "All", 
     "detail": "More",
-    "send": "Send",
-    "map": "On the map",
-    "dev": "Developed and designed by Appx Group"
+    "send": "Send"
   },
   "Banner": {
     "title": "Invest in your future with us",
@@ -99,5 +97,11 @@
     "send": "Congratulations!",
     "connect": "You will be contacted soon.",
     "home": "Go to homepage"
+  },
+  "Footer": {
+    "messenger": "Social networks",
+    "address": "Tashkent city, Shilanzor Yakkabog' street, house 25",
+   "map": "On the map",
+    "dev": "Developed and designed by Appx Group"
   }
 }

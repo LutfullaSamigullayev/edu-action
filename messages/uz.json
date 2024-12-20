@@ -9,9 +9,7 @@
     "link": "Ariza yuborish",
     "all": "Barchasi", 
     "detail": "Batafsil",
-    "send": "Yuborish",
-    "map": "Xaritada",
-    "dev": "Appx Group tomonidan ishlab chiqilgan"
+    "send": "Yuborish"
   },
   "Banner": {
     "title": "Biz bilan kelajagingizga investitsiya qiling",
@@ -99,6 +97,11 @@
     "send": "Tabriklaymiz!",
     "connect": "Siz bilan tez orada bog'lanishadi",
     "home": "Bosh sahifaga o'tish"
+  },
+  "Footer": {
+    "messenger": "Ijtimoiy tarmoqlar",
+    "address": "Toshkent shahri, Сhilanzor Yakkabog’ ko’chasi 25-uy",
+    "map": "Xaritada",
+    "dev": "Appx Group tomonidan ishlab chiqilgan"
   }
-  
 }

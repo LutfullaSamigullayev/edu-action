@@ -6,8 +6,8 @@ import {
   About,
   Article,
   Comment,
-  Footer,
   Connect,
+  Footer,
 } from "@/components";
 
 export default function HomePage() {

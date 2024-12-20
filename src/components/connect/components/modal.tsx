@@ -38,7 +38,7 @@ export const ModalConnect = ({ isOpen, onClose }: ModalProps) => {
         <p className=" text-green-800 mb-6 text-center text-lg">{t("send")}</p>
         <p className="  mb-6 text-center text-base">{t("connect")}</p>
         <a
-          href="#home"
+          href="/"
           onClick={onClose}
           className="flex items-center w-fit h-10 md:h-12 px-6 py-3 lg:px-9 lg:py-4 rounded-lg font-medium bg-orange text-white  hover:text-stone transition-all group"
         >
