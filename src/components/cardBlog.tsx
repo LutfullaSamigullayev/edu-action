@@ -22,7 +22,12 @@ export const BlogCard = ({ title, imgUrl, desc, horizontal }: CardBlogType) => {
       />
       <div className=" p-4 md:p-6 ">
         <h3 className="text-black text-xl">{title}</h3>
-        <p className={clsx("pt-3", horizontal ? "md:pt-3" : "md:pt-2")}>
+        <p
+          className={clsx(
+            "pt-3 dark:text-background",
+            horizontal ? "md:pt-3" : "md:pt-2"
+          )}
+        >
           {desc}
         </p>
       </div>

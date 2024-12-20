@@ -14,7 +14,7 @@ export const Connect = () => {
           alt="connect"
           width={800}
           height={800}
-          className="w-full h-full hidden md:block"
+          className="w-full h-full object-cover hidden md:block"
         />
         <div className="xl:pl-14">
           <ConnectForm />

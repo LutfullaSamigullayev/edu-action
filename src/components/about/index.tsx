@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <div className="container_">
       <TitleSection title={t("title")} orange2 />
-      <div className="grid grid-cols-1 gap-y-6 lg:grid-cols-2 p-6 lg:p-9 xl:p-12 bg-milk rounded-3xl">
+      <div className="grid grid-cols-1 gap-y-6 lg:grid-cols-2 p-6 lg:p-9 xl:p-12 bg-milk dark:text-background rounded-3xl">
         <AboutContent />
         <div className="flex lg:justify-end">
           <div className="w-fit h-fit grid grid-cols-2 sm:grid-cols-4 gap-4">

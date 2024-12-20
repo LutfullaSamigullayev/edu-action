@@ -3,14 +3,16 @@ import clsx from "clsx";
 import { LinkBtnT } from "@/types";
 import { useTranslations } from "next-intl";
 
-export const LinkBtn = ({ btnTitle, btnLink, btnOrange }: LinkBtnT) => {
+export const LinkBtn = ({ btnTitle, btnLink, btnOrange, border }: LinkBtnT) => {
   const t = useTranslations("Button");
   return (
     <Link
       href={btnLink}
       className={clsx(
         "flex items-center w-fit h-10 md:h-12 px-6 py-3 lg:px-9 lg:py-4",
-        "border border-stone rounded-lg text-nowrap font-medium leading-4 hover:text-orange",
+        "border border-stone ",
+        border ? "dark:border-background" : "dark:border-foreground",
+        "rounded-lg text-nowrap font-medium leading-4 hover:text-orange",
         "group",
         btnOrange &&
           "bg-orange text-white bottom-1 border-none hover:text-stone transition-all"

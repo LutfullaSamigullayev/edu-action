@@ -101,7 +101,7 @@ export const Icons = {
       <g clipPath="url(#clip0_3272_465)">
         <path
           d="M6 9L12 15L18 9"
-          stroke="#555351"
+          stroke="currentColor"
           strokeWidth="1.25"
           strokeLinecap="round"
           strokeLinejoin="round"

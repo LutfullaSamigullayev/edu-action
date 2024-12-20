@@ -26,7 +26,7 @@ export const Menu = ({ open, close }: MenuProps) => {
         {menuItems.map((item) => (
           <li
             key={item.id}
-            className="text-grey cursor-pointer hover:rotate-6 hover:text-foreground transition-all"
+            className="text-grey dark:text-foreground cursor-pointer hover:rotate-6 hover:text-foreground transition-all"
           >
             <a
               onClick={close}

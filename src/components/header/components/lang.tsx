@@ -49,10 +49,10 @@ export const LangSelect = () => {
   const filterLanguage = Language.filter((lang) => lang.value !== locale);
 
   return (
-    <div className="w-20 h-12 text-stone  relative select-none cursor-pointer">
+    <div className="w-20 h-12 text-stone dark:text-foreground relative select-none cursor-pointer">
       <div
         id="lang-select"
-        className="group p-3 flex items-center justify-center gap-x-2 border border-stone rounded-lg hover:border-b-0 hover:rounded-br-none hover:rounded-bl-none transition-all"
+        className="group p-3 flex items-center justify-center gap-x-2 border border-stone dark:border-foreground rounded-lg hover:border-b-0 hover:rounded-br-none hover:rounded-bl-none transition-all"
       >
         <p className="leading-4 hover:rotate-6 transition-all">
           {locale.charAt(0).toUpperCase() + locale.slice(1)}
@@ -60,7 +60,7 @@ export const LangSelect = () => {
         <div className="group-hover:rotate-180 transition-all duration-500">
           <Icons.down />
         </div>
-        <ul className="w-full top-12 absolute bg-background divide-y divide-stone border border-stone rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:z-10 transition-all duration-300 ">
+        <ul className="w-full top-12 absolute bg-background divide-y divide-stone dark:divide-foreground border border-stone dark:border-foreground rounded-bl-lg rounded-br-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:z-10 transition-all duration-300 ">
           {filterLanguage.map((lang) => (
             <li
               key={lang.id}

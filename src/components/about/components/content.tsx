@@ -15,7 +15,7 @@ export const AboutContent = () => {
         </p>
       </div>
       <div className="hidden lg:block">
-        <LinkBtn btnTitle="all" btnLink="#" />
+        <LinkBtn btnTitle="all" btnLink="#" border />
       </div>
     </div>
   );
