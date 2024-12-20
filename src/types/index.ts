@@ -67,3 +67,7 @@ export interface PersonCommentType extends PlayLinkType {
 export interface PersonItem extends PersonCommentType {
   id: number;
 }
+
+export interface ButtonType {
+  onSubmit?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+}

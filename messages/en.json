@@ -85,5 +85,19 @@
       "person": "Nodir Jumaev",
       "university": "Boston University student"
     }
+  },
+  "Connect": {
+    "title": "Connection",
+    "form": "To submit an application",
+    "name": "Name Surname",
+    "nameError": "You have not entered your name.",
+    "phone": "Your phone number",
+    "telError": "Please enter your phone number correctly.",
+    "plan": "Your educational plan (optional)"
+  },
+  "Modal": {
+    "send": "Congratulations!",
+    "connect": "You will be contacted soon.",
+    "home": "Go to homepage"
   }
 }

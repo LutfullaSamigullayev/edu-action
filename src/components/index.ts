@@ -11,5 +11,5 @@ export { News } from "./news";
 export { About } from "./about";
 export { Article } from "./article";
 export { Comment } from "./comment";
-
+export { Connect } from "./connect";
 export { Footer } from "./footer";

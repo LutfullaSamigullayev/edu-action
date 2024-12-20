@@ -87,7 +87,18 @@
     }
   },
   "Connect": {
-    "title": "Bog'lanish"
+    "title": "Bog'lanish",
+    "form": "Ariza qoldirish uchun.",
+    "name": "Ism Familiya",
+    "nameError": "Ismingizni kiritmadingiz",
+    "phone": "Telefon raqamingiz",
+    "telError": "Telefon raqamingizni to'g'ri kiriting",
+    "plan": "Ta’lim olish rejangiz (ihtiyoriy)"
+  },
+  "Modal": {
+    "send": "Tabriklaymiz!",
+    "connect": "Siz bilan tez orada bog'lanishadi",
+    "home": "Bosh sahifaga o'tish"
   }
   
 }

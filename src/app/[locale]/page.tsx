@@ -7,6 +7,7 @@ import {
   Article,
   Comment,
   Footer,
+  Connect,
 } from "@/components";
 
 export default function HomePage() {
@@ -20,6 +21,7 @@ export default function HomePage() {
         <About />
         <Article />
         <Comment />
+        <Connect />
       </div>
       <Footer />
     </div>

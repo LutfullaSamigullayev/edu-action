@@ -17,6 +17,7 @@ export default {
         grey: "#8D8C8B",
         stone: "#555351",
         blackberry: "#1C1917",
+        borderGrey: "#C6C5C5",
       },
       backgroundImage: {
         gradient1: "linear-gradient(135.6deg, #FF3605 -6.48%, #7A00F9 105.85%)",
